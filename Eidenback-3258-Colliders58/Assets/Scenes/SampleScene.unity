@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -877,7 +877,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 59e7a90c93efef448a2415a1a42b2050, type: 2}
+    - {fileID: 11400000, guid: 5fd630290d449934a9f245bccd05768b, type: 2}
 --- !u!114 &1018712355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -891,10 +891,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"startPosition","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"endPosition","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 1130263085}
+    - {fileID: 1793755977}
+    - {fileID: 1952688888}
 --- !u!54 &1018712356
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1432,6 +1434,16 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1a55a0e2f0de4a4f945cbc65cc3dc78, type: 3}
+--- !u!1 &1793755977 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2940328259455871795, guid: e1a55a0e2f0de4a4f945cbc65cc3dc78, type: 3}
+  m_PrefabInstance: {fileID: 69095219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1952688888 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2940328259455871795, guid: e1a55a0e2f0de4a4f945cbc65cc3dc78, type: 3}
+  m_PrefabInstance: {fileID: 1040362694}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1115377171247040587
 PrefabInstance:
   m_ObjectHideFlags: 0
